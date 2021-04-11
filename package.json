@@ -4,14 +4,14 @@
   "description": "EXTENDED Dummy switches for Homebridge: https://github.com/MrDebnath/homebridge-dummy-with-info",
   "license": "ISC",
   "keywords": [
-    "homebridge-dummy-with-info"
+    "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/MrDebnath/homebridge-dummy-with-info.git"
   },
   "bugs": {
-    "url": "https://github.com/MrDebnath/homebridge-dummy-with-info/issues"
+    "url": "http://github.com/MrDebnath/homebridge-dummy-with-info/issues"
   },
   "engines": {
     "node": ">=0.12.0",
