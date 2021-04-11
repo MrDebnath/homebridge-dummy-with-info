@@ -20,10 +20,12 @@ function DummySwitch(log, config) {
   this.timer = null;
   this._service = new Service.Switch(this.name);
 	
+  this.model = config.model ? config.model : "DummySwitch";
+	
   this.informationService = new Service.AccessoryInformation();
   this.informationService
-    .setCharacteristic(Characteristic.Manufacturer, config.manufacturer ? config.manufacturer : 'Homebridge')
-    .setCharacteristic(Characteristic.Model, config.model ? config.model : 'DummySwitch')
+    .setCharacteristic(Characteristic.Manufacturer, 'Homebridge')
+    .setCharacteristic(Characteristic.Model, this.model)
     .setCharacteristic(Characteristic.FirmwareRevision, config.firmwareRevision)
     .setCharacteristic(Characteristic.SerialNumber, config.serialNumber);
   
