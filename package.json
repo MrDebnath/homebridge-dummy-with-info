@@ -1,17 +1,17 @@
 {
-  "name": "homebridge-dummy",
+  "name": "homebridge-dummy-with-info",
   "version": "0.5.0",
-  "description": "Dummy switches for Homebridge: https://github.com/nfarina/homebridge",
+  "description": "EXTENDED Dummy switches for Homebridge: https://github.com/MrDebnath/homebridge-dummy-with-info",
   "license": "ISC",
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-dummy-with-info"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfarina/homebridge-dummy.git"
+    "url": "git://github.com/MrDebnath/homebridge-dummy-with-info.git"
   },
   "bugs": {
-    "url": "http://github.com/nfarina/homebridge-dummy/issues"
+    "url": "https://github.com/MrDebnath/homebridge-dummy-with-info/issues"
   },
   "engines": {
     "node": ">=0.12.0",
